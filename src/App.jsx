@@ -57,6 +57,7 @@ function App() {
       >
         Clear State
       </button>
+      <div className='font-bold text-xl'>Highlight a word by dragging cursor  or double clicking it and it will be highlighted  and searched on the right panel</div>
     </div>
     
     <div className="flex h-fill-available flex-1 overflow-hidden">
