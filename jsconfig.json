@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "esnext",          // ECMAScript target version
+      "module": "esnext",          // Module system
+      "checkJs": true,             // Enable error checking for JavaScript files
+      "allowSyntheticDefaultImports": true,  // Allow default imports from modules with no default export
+      "baseUrl": ".",              // Base directory for resolving non-relative module names
+      "paths": {
+        "@/*": ["./src/*"]         // Aliases for imports
+      },
+      "jsx": "react",              // Enable JSX syntax
+      "lib": ["dom", "esnext"]     // Library files to include
+    },
+    "include": ["src/**/*"],       // Files to include in the project
+    "exclude": ["node_modules"]    // Files to exclude
+  }
+  
